@@ -10,7 +10,7 @@ Use Lib c work all os. posix is law for library C.
 - [void]()
 - [String]()
 - [lib]()
-
+- [pointer]()
 
 for compile file c 
 ```bash 
@@ -319,3 +319,44 @@ for install lib
 ```bash
 sudo apt install libcurl
 ```
+
+## pointer
+
+Invalid pointer -> Dangling Pointer (var is not exist but pointer before is target)
+
+When use * like below just define.
+In system 64-bit size is 8 byte or 64 bit
+```c
+int *ptr; // ptr is pointer to somewhere in memory which is an Int
+// target int 
+
+int* z3,z4; // z3 is pointer , z4 is int
+```
+
+Get address 
+```c
+
+int *data=NULL; //set pointer null
+
+int test=10;
+
+// data is stack 
+data=&test // get address
+
+printf("%d\n",*data) // get value from adress
+
+printf("%d\n",*(&data)) // is true
+
+```
+
+If pointer is invalid or not special somewhere
+```c
+int *p=0;
+int *p1=NULL;
+```
+
+void is just pointer unknown, no data type, no data
+```c
+void *ptr;
+```
+## 
