@@ -1,18 +1,22 @@
 # C 
+
+- [Linux](https://github.com/ussefT/Essential/blob/main/Linux.md) 🐧
+- [Practice C/C++](https://www.hackerrank.com/domains/cpp)
+
 Use Lib c work all os. posix is law for library C. 
+## 👀This page
+- [Storage](https://github.com/ussefT/c-essential#storage)
+- [Array](https://github.com/ussefT/c-essential#array)
+- [Struct](https://github.com/ussefT/c-essential#struct)
+- [Enum](https://github.com/ussefT/c-essential#enum)
+- [Union](https://github.com/ussefT/c-essential#union)
+- [Buffer](https://github.com/ussefT/c-essential#buffer)
+- [Void](https://github.com/ussefT/c-essential#void)
+- [String](https://github.com/ussefT/c-essential#string)
+- [Lib](https://github.com/ussefT/c-essential#lib)
+- [Pointer](https://github.com/ussefT/c-essential#pointer)
 
-- [storage]()
-- [Array]()
-- [Struct]()
-- [Enum]()
-- [Union]()
-- [Buffer]()
-- [void]()
-- [String]()
-- [lib]()
-- [pointer]()
-
-for compile file c 
+for compile file C
 ```bash 
 gcc f.c -o f
 ```
@@ -27,9 +31,9 @@ convert to assmbely
 gcc -S f.c -o f
 ```
 
-### Debug
+### 🔨Debug
 convert to assembly with -g can debug with gdb, asembly code to embeded to C
-- [f2]()
+- [f2](https://github.com/ussefT/c-essential/blob/main/f2.c)
 
 ```bash
 gcc -g f.c -o f
@@ -44,7 +48,7 @@ gdb -tui f
 - [exmaples 2 args, func]()
 
 --- 
-## storage
+## 💽storage
 
 Storage class
     
@@ -68,7 +72,7 @@ with b numberLine breakPoint
 
 ---
 ### Declare
-file [f3.c]()
+file [f3.c](https://github.com/ussefT/c-essential/blob/main/f3.c)
 ```c
 #include <stdio.h>
 
@@ -93,15 +97,15 @@ int main(){
 ```
 
 ### args in main
-- [f4.c]()
+- [f4.c](https://github.com/ussefT/c-essential/blob/main/f4.c)
 ---
 #### if
--[exmaples f5.c]()
+-[exmaples f5.c](https://github.com/ussefT/c-essential/blob/main/f5.c)
 
 
 
 ---
-## Array
+## 📃Array
 
 Array is sequential same type -> Normal Usage, Buffer, String
 use array in c (f7.c)[] , (f8.c)[]
@@ -130,7 +134,7 @@ Example 3
 ```
 
 
-### 2D,3D
+### 🟥2D,3D
 
 ```c
     int H[2][3]; // [][][] [][][]
@@ -147,9 +151,9 @@ Example 3
 
 
 ---
-## Struct
+## 🏗️Struct
 Example in (f9.c)[]
-- [Example f11.py]()
+- [Example f11.py](https://github.com/ussefT/c-essential/blob/main/f11.c)
 ```c
 
 int main (){
@@ -226,7 +230,7 @@ This struct for this Container
 ---
 ## Enum
 
-Enum use for fix var like MALE, FEMALE (f10.c)[]
+Enum use for fix var like MALE, FEMALE [f10.c](https://github.com/ussefT/c-essential/blob/main/f10.c)
 ```c
     enum Gender{MALE,FEMALE}; // it is a number default (MALE=0, FEMALE=1)
 
@@ -320,7 +324,7 @@ for install lib
 sudo apt install libcurl
 ```
 
-## pointer
+## 👉pointer
 
 Invalid pointer -> Dangling Pointer (var is not exist but pointer before is target)
 
