@@ -5,6 +5,7 @@
 
 Use Lib c work all os. posix is law for library C. 
 ## 👀This page
+- [DataTypes]()
 - [Storage](https://github.com/ussefT/c-essential#storage)
 - [Array](https://github.com/ussefT/c-essential#array)
 - [Struct](https://github.com/ussefT/c-essential#struct)
@@ -48,6 +49,14 @@ gdb -tui f
 - [exmaples 2 args, func]()
 
 --- 
+## DataTypes
+| Type  | Typical Size (32-bit ISA) |          Range Unsigned        Signed |
+|-------|---------------------------|---------------------------------------|
+| char  | 8 bits                    | 0 to 255        -128 to +128          |
+| short | 16 bits                   | 0 to 65,535     -32,768 to +32,768    |
+| int   | 32 bits                   | 0 to 4,294,967,295                    |
+| long  | 32 bits                   | 0 to 4,294,967,295                    |
+---
 ## 💽storage
 
 Storage class
